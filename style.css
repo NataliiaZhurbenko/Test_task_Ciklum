@@ -1,0 +1,345 @@
+	@font-face {
+		font-family: Helvetica Inserat LT;
+		src: url(fonts/Helvetica Inserat LT.ttf) format("opentype");
+	}
+
+	html {
+		box-sizing: border-box;
+		-ms-text-size-adjust:100%;
+		-webkit-text-size-adjust:100%;
+	}
+
+	body {
+		margin: 0;
+		font-size: 12px;
+		font-family: Helvetica Inserat LT, sans-serif;
+		color: #ffffff;
+		line-height: 1.5;
+	}
+	
+	*, *:before, *:after{ 
+		box-sizing: inherit;
+	}
+
+	a:active, a:hover {
+		outline-width: 0;
+	}
+	
+	img {
+		margin-bottom: -5px;
+		border-style: none;
+	}
+	
+	.content {
+		margin: auto;
+	}
+	
+	.logo {
+		position: fixed!important;
+		z-index: 3;
+		width: 30px;
+		top: 85px;
+		height: inherit;
+		background-color: #fff;
+	}
+
+	.nospace {
+		font-size: 0px;
+	}
+
+	.flag {
+		margin-left: 8px;
+		opacity: 0.5;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	}
+
+	.flag-opacity {
+		opacity: 1;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	}
+
+	.flag:hover {
+		opacity: 1;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	}
+
+	.light-grey-bg {
+		background-color: #cccccc;
+	}
+
+	.dark-grey-bg {
+		background-color: #666666;
+	}
+
+	.wrapper {
+		margin: 0 65px;
+	}
+
+	header {
+		display: block;
+		padding-top: 75px;
+	}
+	
+	.btn {
+		border: none;
+		display: inline-block;
+		outline: 0;
+		padding: 8px 16px;
+		vertical-align: middle;
+		text-decoration: none;
+		color: inherit;
+		text-align: center;
+		white-space: nowrap;
+		cursor: pointer;
+		overflow: hidden;
+	}
+
+	.bar-item {
+		margin-right: 1px;
+		color: #fffff;
+		padding: 7px 30px;
+		font-size: 14px;
+		font-family: Tahoma, sans-serif;
+		font-weight: bold;
+	}
+	
+	hr {
+		border: 0;
+		margin: 0 10px!important;
+		height: 0;
+		border-top: 1px solid rgba(0, 0, 0, 0.5);
+		border-bottom: 1px solid rgba(122, 122, 122, 0.7);
+	}
+	
+	.hover-black:hover {
+		color: #fff !important;
+		background-color: #000 !important;
+	}
+	
+	footer {
+		color: #515151;
+		font-size: 14px;
+	}
+
+	footer a {
+		margin-right: 10px!important;
+		color: #515151;
+	}
+	.row:after,.row:before {
+		content:"";
+		display:table;
+		clear:both
+	}
+	
+	.left.s6 {
+		width: 49.99999%;
+	}
+
+	h1 {
+		margin: 0!important;
+	}
+
+	.main .dark-grey-bg p {
+		text-indent: 3em;
+	}
+
+	.left {
+		float: left;
+	}
+	
+	.right {
+		float: right;
+	}
+	
+	.left-align {
+		text-align: left;
+	}
+	
+	.right-align {
+		text-align: right;
+	}
+
+	.clearfix:after {
+		content: ".";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		height: 0;
+	}
+
+	.brd-btm {
+		border-bottom: 1px solid #ffffff;
+	}
+
+	.ui-menu li ul.ui-widget {
+		left: 0px!important;
+		width: 180px;
+		padding: 0 5px;
+		background: #000000;
+	}
+
+	.ui-menu li ul li a {
+		width: 100%;
+		padding-left: 10px;
+		text-align: left;
+		font-size:12px;
+		font-weight: normal;
+	}
+
+	.ui-widget-content {
+		border: none;
+		background: none;
+	}
+
+	.ui-widget-content ul {
+		background: #000000;
+	}
+
+	.ui-state-active a:focus,
+	.ui-state-active a:active {
+		background: #000000;
+	}
+
+	.ui-widget-content a {
+		color: #ffffff;
+	}
+
+	.ui-state-active a,
+	.ui-state-active a:link,
+	.ui-state-active a:visited {
+		color: #ffffff;
+		background: #000000;
+	}
+
+	.ui-state-hover a,
+	.ui-state-hover a:hover,
+	.ui-state-hover a:link,
+	.ui-state-hover a:visited,
+	.ui-state-focus a,
+	.ui-state-focus a:hover,
+	.ui-state-focus a:link,
+	.ui-state-focus a:visited {
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.ui-state-hover,
+	.ui-widget-content .ui-state-hover,
+	.ui-widget-header .ui-state-hover,
+	.ui-state-focus,
+	.ui-widget-content .ui-state-focus,
+	.ui-widget-header .ui-state-focus {
+		border: none;
+		background: #000000;
+		color: #ffffff
+	}
+
+	.ui-state-active,
+	.ui-widget-content .ui-state-active,
+	.ui-widget-header .ui-state-active {
+		border: none;
+		background: none;
+		color: #ffffff;
+	}
+
+	.ui-menu .ui-icon {
+		top: 5px;
+	}
+
+	.ui-menu .ui-menu {
+		overflow: visible !important;
+	}
+
+	.ui-menu>li {
+		float: left;
+		display: block;
+		width: auto !important;
+	}
+
+	.ui-menu ul li {
+		display: block;
+		float: none;
+	}
+
+	.ui-menu>li {
+		margin-right: 2px!important;
+		padding: 0 0 !important;
+	}
+
+	.ui-menu li ul li {
+		margin-right: 0px!important;
+	}
+
+	.ui-menu>li>a {
+		float: left;
+		display: block;
+		clear: both;
+		overflow: hidden;
+	}
+
+	.ui-menu .ui-menu-icon {
+		margin-top: 0.3em !important;
+	}
+	
+	.ui-state-default,
+	.ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+		border: none;
+		border-top: 1px solid #d3d3d3;
+		border-radius: 0;
+		background: black;
+		color: #ffffff;
+		outline: none;
+	}
+
+	.ui-accordion h3.first {
+		border-top: none;
+	}
+
+	.ui-accordion .ui-accordion-content,
+	.ui-accordion .ui-accordion-header {
+		padding: 12px;
+	}
+	
+	.ui-accordion.ui-widget {
+		font-size: 12px!important;
+		font-family: Tahoma, sans-serif;
+	}
+
+	.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+		background-image: url(https://code.jquery.com/ui/1.11.3/themes/dark-hive/images/ui-icons_ffffff_256x240.png);
+		background-position: -32px -16px;
+		right: .5em;
+		left: auto;
+	}
+
+	.ui-accordion .ui-accordion-header-active .ui-accordion-header-icon {
+		background-image: url(https://code.jquery.com/ui/1.11.3/themes/dark-hive/images/ui-icons_ffffff_256x240.png);
+		background-position: -64px -16px;
+	}
+
+	.ui-menu .has-popup span.ui-menu-icon {
+		display: none;
+	}
+
+	.ui-menu .has-popup span.ui-icon {
+		background-image: url(https://code.jquery.com/ui/1.11.3/themes/dark-hive/images/ui-icons_ffffff_256x240.png);
+		background-position: -32px -16px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 3px;
+		margin: auto 0;
+		left: auto;
+	}
+
+	.ui-menu .has-popup.ui-state-focus span.ui-icon,
+	.ui-menu .has-popup.ui-state-active span.ui-icon {
+		background-image: url(https://code.jquery.com/ui/1.11.3/themes/dark-hive/images/ui-icons_ffffff_256x240.png);
+		background-position: -64px -16px;
+	}
+
+	.ui-menu .ui-state-focus,
+	.ui-menu .ui-state-active {
+		margin: 0px;
+	}
